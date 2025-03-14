@@ -1,8 +1,8 @@
-# AP\Env
+# AP\Conf
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-AP\Conff is a library for managing project configuration variables, featuring validation and object transformation capabilities.
+AP\Conf is a library for managing project configuration variables, featuring validation and object transformation capabilities.
 
 ## Installation
 
