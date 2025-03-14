@@ -1,0 +1,33 @@
+{
+  "name": "ap-lib/conf",
+  "description": "",
+  "type": "library",
+  "homepage": "https://github.com/ap-lib/conf",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Anton Panfilov"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AP\\Conf\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AP\\Conf\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.3",
+    "ap-lib/to-object": "dev-main",
+    "ap-lib/validator": "dev-main",
+    "ap-lib/logger": "dev-main"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.5.*"
+  }
+}
